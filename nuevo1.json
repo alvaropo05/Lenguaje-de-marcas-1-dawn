@@ -1,0 +1,54 @@
+
+{
+"juego":[
+    {
+	    "nombre":"counter strike global ofensive",
+		"categoria":"shooter",
+		"tamaño":"10 GB",
+		"dispositivos":["pc"],
+		"compañia": {
+		      "nombre":"Valve Corporation",
+			  "ciudad":"Bellevue"
+			  }
+	}
+},
+
+{
+"juego":[
+    {
+	    "nombre":"lol",
+		"categoria":"moba",
+		"tamaño":"15 GB",
+		"dispositivos":["pc"],
+		"compañia": {
+		      "nombre":"riot games",
+			  "ciudad":"suiza"
+			  }
+	}	
+	
+	
+	
+},
+{
+"juego":[
+    {
+	    "nombre":"counter strike global ofensive",
+		"categoria":"shooter",
+		"tamaño":"10 GB",
+		"dispositivos":["pc"],
+		"compañia": {
+		      "nombre":"Valve Corporation",
+			  "ciudad":"Bellevue"
+			  }
+	}	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+	

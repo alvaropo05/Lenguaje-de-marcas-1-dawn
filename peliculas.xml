@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE peliculas>
+<peliculas>
+     <titulo>Cars</titulo>
+	 <genero>Animacion</genero>
+	 <personaje>Rayo Mcqueen</personaje>
+	 <personaje>Luigi</psersonaje>
+	 <personaje>Doc</personaje>
+	 <duracion>2 horas</duracion>
+	 <director>John Lesese</director>	 
+</peliculas>
