@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actividad-13</title>
+</head>
+<body>
+    <p>Tienes algo para decir?</p>
+    <p>
+        A través de este formulario puedes enviarme un mensaje para ayudarme a corregir errores,
+        a mejorar mi blog o simplemente para decir hola. Cualquier cosa que tengas para decir
+        es bienvenida, así que no lo dudes y déjame un mensaje.
+    </p>
+
+    <form>
+        <fieldset>
+            <legend>Mensaje</legend>
+            <p>
+                Tu nombre:
+                <input type="text" name="nombre">
+            </p>
+            <p>
+                Tu dirección de correo:
+                <input type="text" name="correo">
+            </p>
+            <p>
+                Tu mensaje:<br>
+                <textarea name="mensaje"></textarea>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Estudios</legend>
+            <p>
+                Qué estás estudiando:
+                <select name="estudios">
+                    <option>DAW</option>
+                    <option>DAM</option>
+                    <option>ASIR</option>
+                </select>
+                ¿Cuál es tu asignatura favorita?
+                <select name="asignatura">
+                    <option>Programación</option>
+                    <option>Bases de datos</option>
+                    <option>Entornos de desarrollo</option>
+                    <option>Lenguajes de marcas</option>
+                    <option>Sistemas informáticos</option>
+                </select>
+            </p>
+            <input type="radio" name="otro" value="op1"> opcion 1</input>
+              <input type="radio" name="otro" value="op1"> opcion 2</input>
+        </fieldset>
+
+        <fieldset>
+            <legend>Nuevos temas</legend>
+            <p>Qué temas te gustaría que trate más en mi sitio?</p>
+            <p>
+                <input type="checkbox" name="html"> HTML
+                <input type="checkbox" name="graficos"> Gráficos
+                <label><input type="checkbox" name="videojuegos"> Videojuegos</label>
+                <label><input type="checkbox" name="arte"> Arte</label>
+                <label><input type="checkbox" name="musica"> Música</label>
+                <input type="color" name="colorfavorito" value="#000000">
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar mensaje">
+            <input type="submit" value="Comenzar de nuevo">
+        </p>
+<label >Correo electrónico:</label>
+<input type="datetime-local" name="email">
+<thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+    </tr>
+</thead>
+    </form>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario Surf</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(#00c6ff, #0072ff);
+    font-family: 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    background: rgba(255,255,255,0.85);
+    padding: 25px 30px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    animation: flotar 3s ease-in-out infinite;
+}
+
+@keyframes flotar {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0px); }
+}
+
+label {
+    font-weight: bold;
+    color: #0077b6;
+}
+
+input, select {
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #90dbf4;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #0077b6;
+    box-shadow: 0 0 8px #00b4d8;
+}
+
+.radio-group,
+.checkbox-group {
+    margin-top: 10px;
+}
+
+.radio-group input,
+.checkbox-group input {
+    wid
